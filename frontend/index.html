@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- main header and title of the page -->
+    <h1 id="titletag">SIMPLE FORM WITH DATA STORAGE IN DATABASE</h1>
+    
+    <!-- leftside of the page entering the details in form -->
+    <div id="entrydiv">ENTER DATA<br><br>
+    <h4 id="idtag">ENTER ID-<br><input id="inputid" style="height: 20px; width: 200px;"></h4>
+    <h4 id="nametag">NAME-<br><input id="inputname" style="height: 20px; width: 200px;"></h4>
+    <h4 id="mobiletag">MOBILE-<br><input id="inputmobile" id="inputname" style="height: 20px; width: 200px;"></h4>
+    <h4 id="emailtag">EMAIL-<br><input id="inputemail" id="inputname" style="height: 20px; width: 200px;"></h4>
+    <h4 id="messagetag">SHORT MESSAGE-<br><input id="inputmessage" id="inputname" style="height: 50px; width: 200px;"></h4><br>
+    <button id="smt">SUBMIT DETAILS</button>
+    <button id="upd">UPDATE DETAILS</button>
+    </div>
+
+    
+    <!-- all the main buttons are here for the functioning /middle div -->
+    <div id="indiv">
+    <button id="fill">FILL DATA</button>
+    <button id="get">GET ALL DATA</button>
+    <button id="set">MODIFY DATA</button>
+    <button id="delete">DELETE DATA</button>
+    <button id="clr">CLEAR ALL</button>
+    </div>
+
+    <!-- delete box to delete the data from the database -->
+    <div id="deletebox">DELETE ID-
+        <input id="deleteindex" style="width:25px" placeholder="ID">
+        <button id="cfmdel">CONFIRM DELETE</button>
+        <button id="closedeletebox">CLOSE</button>
+    </div>
+
+
+    <!-- this is the resultbox where the result will appear from database -->
+    <div id="exitdiv">RESULT<br>
+        <table id="resulttable" width="100%">
+            <tr>
+                <th >id</th>
+                <th >name</th>
+                <th >mobile</th>
+                <th >email</th>
+                <th >message</th>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

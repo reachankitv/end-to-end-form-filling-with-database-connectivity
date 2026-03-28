@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* main header style */
+#titletag{
+    height: 60px;
+    margin-bottom: 10PX;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(122, 108, 108);
+}
+
+
+/* left side form style -----------------------------------------------------------------------------------*/
+#entrydiv{
+    color: rgb(201, 244, 235);
+    font-size: medium;
+    height: 450px;
+    width: 300px;
+    background-color: rgb(62, 97, 149);
+    display: inline-block;
+    margin-left: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* submit update button styling */
+#smt,#upd{
+    color: rgb(176, 207, 166);
+    height: 30px;
+    width: 150px;
+    background-color: rgb(80, 147, 90);
+    border-radius: 5px;
+}
+
+/* hover styleing of the buttons */
+#smt:hover,#cfmdel:hover,#closedeletebox:hover{
+    background-color:red;
+    font-size: medium;
+}
+
+/* middle main button panels -----------------------------------------------------------*/
+#indiv{
+
+    padding: 5px;
+    height: 270px;
+    width: 140px;
+    background-color: rgb(97, 115, 141);
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+}
+/* main 4 button styles */
+#fill,#get,#set,#delete,#clr{
+    height: 30px;
+    width: 120px;
+    margin-top: 20px;
+}
+/* button on hover style  */
+#fill:hover,#get:hover,#set:hover,#delete:hover,#clr:hover{
+    font-size:14px;
+    background-color: red;
+}
+/* delete box styling */
+#deletebox{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border-radius: 7px;
+    visibility: hidden;
+    vertical-align: top;
+    display: inline-block;
+    height: 80px;
+    width: 150px;
+    background-color: rgb(235, 103, 103);
+    border-style: solid
+}
+/* delete box button */
+#closedeletebox{
+    margin-top: 15px;
+}
+
+/* result panel style -----------------------------------------------------------------*/
+#exitdiv{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    height: 450px;
+    width: 550px;
+    padding: 5px;
+    background-color: rgb(66, 106, 190);
+    overflow: auto;
+    border-style: solid;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+}
+/* result table styling */
+table,th,td{
+    border: 1px solid black;
+    border-radius: 5px;
+} 
+
+/* keeping the modify and deletex box visibility */
+#upd,#idtag{
+    visibility: hidden;
+}
+
+
